@@ -1,0 +1,45 @@
+# Configuration for Special Character Model Fooling Research
+
+# Ollama server configuration
+ollama:
+  host: "http://localhost:11434"
+  timeout: 300
+
+# Models to test (available in Ollama)
+models:
+  small:
+    - "phi3:3.8b"
+    - "gemma2:2b"
+    - "mistral:7b"
+  
+  medium:
+    - "llama3.2:11b"
+    - "phi3:14b" 
+    - "gemma2:7b"
+  
+  large:
+    - "llama3.1:70b"
+    - "mixtral:8x7b"
+    - "qwen2.5:72b"
+
+# Attack categories
+attack_types:
+  - "unicode_invisible"
+  - "unicode_tags"
+  - "homoglyphs"
+  - "structural_reorder"
+  - "encoding_obfuscation"
+  - "combined_attacks"
+
+# Evaluation settings
+evaluation:
+  num_trials: 10
+  timeout_per_request: 30
+  baseline_prompts: 50
+  attack_prompts: 100
+
+# Output settings
+output:
+  results_dir: "./results"
+  data_dir: "./data"
+  log_level: "INFO"
