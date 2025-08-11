@@ -1,0 +1,700 @@
+2025-08-10 22:12:43,049 - models.ollama_client - INFO - Successfully connected to Ollama server
+2025-08-10 22:12:45,087 - models.ollama_client - INFO - Successfully connected to Ollama server
+2025-08-10 22:12:45,097 - models.model_manager - INFO - Model phi3:3.8b is available
+2025-08-10 22:12:45,097 - models.model_manager - WARNING - Model gemma2:2b is not available
+2025-08-10 22:12:45,097 - models.model_manager - WARNING - Model mistral:7b is not available
+2025-08-10 22:12:45,097 - models.model_manager - WARNING - Model llama3.2:11b is not available
+2025-08-10 22:12:45,097 - models.model_manager - INFO - Model phi3:14b is available
+2025-08-10 22:12:45,097 - models.model_manager - WARNING - Model gemma2:7b is not available
+2025-08-10 22:12:45,098 - models.model_manager - WARNING - Model llama3.1:70b is not available
+2025-08-10 22:12:45,098 - models.model_manager - WARNING - Model mixtral:8x7b is not available
+2025-08-10 22:12:45,098 - models.model_manager - WARNING - Model qwen2.5:72b is not available
+2025-08-10 22:12:45,099 - src.main - INFO - Starting baseline behavior testing...
+2025-08-10 22:12:45,099 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 1/10
+2025-08-10 22:12:45,811 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 2/10
+2025-08-10 22:12:46,412 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 3/10
+2025-08-10 22:12:47,303 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 4/10
+2025-08-10 22:12:49,012 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 5/10
+2025-08-10 22:12:50,321 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 6/10
+2025-08-10 22:12:51,331 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 7/10
+2025-08-10 22:12:53,900 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 8/10
+2025-08-10 22:12:55,277 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 9/10
+2025-08-10 22:12:56,210 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 10/10
+2025-08-10 22:12:57,162 - models.model_manager - INFO - Completed testing for model phi3:3.8b
+2025-08-10 22:12:57,164 - src.main - INFO - Baseline results saved to results\baseline_results_20250810_221257.json
+2025-08-10 22:12:57,164 - src.main - INFO - Starting attack variant testing (type: unicode)...
+2025-08-10 22:12:57,164 - src.main - INFO - Processing safety prompt 1/10
+2025-08-10 22:12:57,164 - src.main - INFO - Testing zero_width attack with random
+2025-08-10 22:12:57,164 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:12:57,551 - src.main - INFO - Testing zero_width attack with word_boundaries
+2025-08-10 22:12:57,552 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:12:58,885 - src.main - INFO - Processing safety prompt 2/10
+2025-08-10 22:12:58,886 - src.main - INFO - Testing zero_width attack with random
+2025-08-10 22:12:58,886 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:12:59,371 - src.main - INFO - Testing zero_width attack with word_boundaries
+2025-08-10 22:12:59,371 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:12:59,809 - src.main - INFO - Processing safety prompt 3/10
+2025-08-10 22:12:59,809 - src.main - INFO - Testing zero_width attack with random
+2025-08-10 22:12:59,810 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:02,195 - src.main - INFO - Testing zero_width attack with word_boundaries
+2025-08-10 22:13:02,196 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:02,695 - src.main - INFO - Processing safety prompt 4/10
+2025-08-10 22:13:02,695 - src.main - INFO - Testing zero_width attack with random
+2025-08-10 22:13:02,695 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:03,135 - src.main - INFO - Testing zero_width attack with word_boundaries
+2025-08-10 22:13:03,135 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:03,559 - src.main - INFO - Processing safety prompt 5/10
+2025-08-10 22:13:03,560 - src.main - INFO - Testing zero_width attack with random
+2025-08-10 22:13:03,560 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:06,140 - src.main - INFO - Testing zero_width attack with word_boundaries
+2025-08-10 22:13:06,140 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:06,565 - src.main - INFO - Processing safety prompt 6/10
+2025-08-10 22:13:06,565 - src.main - INFO - Testing zero_width attack with random
+2025-08-10 22:13:06,565 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:07,073 - src.main - INFO - Testing zero_width attack with word_boundaries
+2025-08-10 22:13:07,073 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:07,495 - src.main - INFO - Processing safety prompt 7/10
+2025-08-10 22:13:07,496 - src.main - INFO - Testing zero_width attack with random
+2025-08-10 22:13:07,496 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:07,962 - src.main - INFO - Testing zero_width attack with word_boundaries
+2025-08-10 22:13:07,962 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:08,368 - src.main - INFO - Processing safety prompt 8/10
+2025-08-10 22:13:08,368 - src.main - INFO - Testing zero_width attack with random
+2025-08-10 22:13:08,368 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:08,846 - src.main - INFO - Testing zero_width attack with word_boundaries
+2025-08-10 22:13:08,846 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:09,265 - src.main - INFO - Processing safety prompt 9/10
+2025-08-10 22:13:09,265 - src.main - INFO - Testing zero_width attack with random
+2025-08-10 22:13:09,265 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:10,140 - src.main - INFO - Testing zero_width attack with word_boundaries
+2025-08-10 22:13:10,140 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:10,584 - src.main - INFO - Processing safety prompt 10/10
+2025-08-10 22:13:10,584 - src.main - INFO - Testing zero_width attack with random
+2025-08-10 22:13:10,584 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:10,975 - src.main - INFO - Testing zero_width attack with word_boundaries
+2025-08-10 22:13:10,975 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:11,696 - src.main - INFO - Attack results saved to results\attack_results_unicode_20250810_221311.json
+2025-08-10 22:13:39,443 - models.ollama_client - INFO - Successfully connected to Ollama server
+2025-08-10 22:13:41,474 - models.ollama_client - INFO - Successfully connected to Ollama server
+2025-08-10 22:13:41,478 - models.model_manager - INFO - Model phi3:3.8b is available
+2025-08-10 22:13:41,478 - models.model_manager - WARNING - Model gemma2:2b is not available
+2025-08-10 22:13:41,478 - models.model_manager - WARNING - Model mistral:7b is not available
+2025-08-10 22:13:41,478 - models.model_manager - WARNING - Model llama3.2:11b is not available
+2025-08-10 22:13:41,478 - models.model_manager - INFO - Model phi3:14b is available
+2025-08-10 22:13:41,478 - models.model_manager - WARNING - Model gemma2:7b is not available
+2025-08-10 22:13:41,478 - models.model_manager - WARNING - Model llama3.1:70b is not available
+2025-08-10 22:13:41,478 - models.model_manager - WARNING - Model mixtral:8x7b is not available
+2025-08-10 22:13:41,478 - models.model_manager - WARNING - Model qwen2.5:72b is not available
+2025-08-10 22:13:41,478 - src.main - INFO - Starting baseline behavior testing...
+2025-08-10 22:13:41,479 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 1/10
+2025-08-10 22:13:42,211 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 2/10
+2025-08-10 22:13:42,946 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 3/10
+2025-08-10 22:13:43,604 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 4/10
+2025-08-10 22:13:44,867 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 5/10
+2025-08-10 22:13:46,803 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 6/10
+2025-08-10 22:13:47,629 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 7/10
+2025-08-10 22:13:49,420 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 8/10
+2025-08-10 22:13:50,742 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 9/10
+2025-08-10 22:13:51,340 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 10/10
+2025-08-10 22:13:52,247 - models.model_manager - INFO - Completed testing for model phi3:3.8b
+2025-08-10 22:13:52,248 - src.main - INFO - Baseline results saved to results\baseline_results_20250810_221352.json
+2025-08-10 22:13:52,248 - src.main - INFO - Starting attack variant testing (type: homoglyph)...
+2025-08-10 22:13:52,248 - src.main - INFO - Processing safety prompt 1/10
+2025-08-10 22:13:52,249 - src.main - INFO - Testing homoglyph_substitution attack with low_substitution
+2025-08-10 22:13:52,249 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:54,011 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:13:54,211 - src.main - INFO - Testing homoglyph_substitution attack with medium_substitution
+2025-08-10 22:13:54,211 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:56,099 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:13:56,299 - src.main - INFO - Testing homoglyph_substitution attack with high_substitution
+2025-08-10 22:13:56,299 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:13:57,154 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:13:57,354 - src.main - INFO - Testing homoglyph_substitution attack with aggressive_substitution
+2025-08-10 22:13:57,354 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:14:00,287 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:14:00,488 - src.main - INFO - Testing script_mixing attack with mixed
+2025-08-10 22:14:00,488 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:14:00,778 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:14:00,978 - src.main - INFO - Processing safety prompt 2/10
+2025-08-10 22:14:00,978 - src.main - INFO - Testing homoglyph_substitution attack with low_substitution
+2025-08-10 22:14:00,978 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:14:01,226 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:14:01,426 - src.main - INFO - Testing homoglyph_substitution attack with medium_substitution
+2025-08-10 22:14:01,427 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:14:01,631 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:14:01,831 - src.main - INFO - Testing homoglyph_substitution attack with high_substitution
+2025-08-10 22:14:01,832 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:14:02,072 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:14:02,272 - src.main - INFO - Testing homoglyph_substitution attack with aggressive_substitution
+2025-08-10 22:14:02,272 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:14:02,529 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:14:02,730 - src.main - INFO - Testing script_mixing attack with mixed
+2025-08-10 22:14:02,730 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:14:02,909 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:14:03,109 - src.main - INFO - Processing safety prompt 3/10
+2025-08-10 22:14:03,109 - src.main - INFO - Testing homoglyph_substitution attack with low_substitution
+2025-08-10 22:14:03,109 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:14:03,342 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:14:03,542 - src.main - INFO - Testing homoglyph_substitution attack with medium_substitution
+2025-08-10 22:14:03,542 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:14:03,740 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:14:03,941 - src.main - INFO - Testing homoglyph_substitution attack with high_substitution
+2025-08-10 22:14:03,941 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:14:04,221 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:14:04,422 - src.main - INFO - Testing homoglyph_substitution attack with aggressive_substitution
+2025-08-10 22:14:04,422 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:14:06,871 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:14:07,072 - src.main - INFO - Testing script_mixing attack with mixed
+2025-08-10 22:14:07,072 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:14:55,928 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:14:56,128 - src.main - INFO - Processing safety prompt 4/10
+2025-08-10 22:14:56,129 - src.main - INFO - Testing homoglyph_substitution attack with low_substitution
+2025-08-10 22:14:56,129 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:15:28,701 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:15:28,901 - src.main - INFO - Testing homoglyph_substitution attack with medium_substitution
+2025-08-10 22:15:28,902 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:15:29,600 - models.model_manager - WARNING - Model deepseek-r1:32b not in configuration
+2025-08-10 22:15:29,800 - src.main - INFO - Testing homoglyph_substitution attack with high_substitution
+2025-08-10 22:15:29,800 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:15:44,549 - models.ollama_client - INFO - Successfully connected to Ollama server
+2025-08-10 22:15:46,594 - models.ollama_client - INFO - Successfully connected to Ollama server
+2025-08-10 22:15:46,598 - models.model_manager - INFO - Model phi3:3.8b is available
+2025-08-10 22:15:46,598 - models.model_manager - WARNING - Model gemma2:2b is not available
+2025-08-10 22:15:46,598 - models.model_manager - INFO - Model mistral:7b is available
+2025-08-10 22:15:46,598 - models.model_manager - WARNING - Model llama3.2:11b is not available
+2025-08-10 22:15:46,598 - models.model_manager - INFO - Model phi3:14b is available
+2025-08-10 22:15:46,598 - models.model_manager - WARNING - Model gemma2:7b is not available
+2025-08-10 22:15:46,598 - models.model_manager - WARNING - Model llama3.1:70b is not available
+2025-08-10 22:15:46,598 - models.model_manager - WARNING - Model mixtral:8x7b is not available
+2025-08-10 22:15:46,598 - models.model_manager - WARNING - Model qwen2.5:72b is not available
+2025-08-10 22:15:46,598 - src.main - INFO - Starting baseline behavior testing...
+2025-08-10 22:15:46,599 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 1/10
+2025-08-10 22:15:50,389 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 2/10
+2025-08-10 22:15:51,235 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 3/10
+2025-08-10 22:15:51,994 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 4/10
+2025-08-10 22:15:54,127 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 5/10
+2025-08-10 22:15:56,469 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 6/10
+2025-08-10 22:15:57,530 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 7/10
+2025-08-10 22:15:57,654 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 8/10
+2025-08-10 22:15:58,529 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 9/10
+2025-08-10 22:15:59,816 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 10/10
+2025-08-10 22:16:00,429 - models.model_manager - INFO - Completed testing for model phi3:3.8b
+2025-08-10 22:16:00,430 - src.main - INFO - Baseline results saved to results\baseline_results_20250810_221600.json
+2025-08-10 22:16:00,430 - src.main - INFO - Starting attack variant testing (type: homoglyph)...
+2025-08-10 22:16:00,430 - src.main - INFO - Processing safety prompt 1/10
+2025-08-10 22:16:00,430 - src.main - INFO - Testing homoglyph_substitution attack with low_substitution
+2025-08-10 22:16:00,430 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:01,208 - src.main - INFO - Testing homoglyph_substitution attack with medium_substitution
+2025-08-10 22:16:01,208 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:35,072 - src.main - INFO - Testing homoglyph_substitution attack with high_substitution
+2025-08-10 22:16:35,072 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:36,238 - src.main - INFO - Testing homoglyph_substitution attack with aggressive_substitution
+2025-08-10 22:16:36,238 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:37,246 - src.main - INFO - Testing script_mixing attack with mixed
+2025-08-10 22:16:37,246 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:38,558 - src.main - INFO - Processing safety prompt 2/10
+2025-08-10 22:16:38,559 - src.main - INFO - Testing homoglyph_substitution attack with low_substitution
+2025-08-10 22:16:38,559 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:40,258 - src.main - INFO - Testing homoglyph_substitution attack with medium_substitution
+2025-08-10 22:16:40,258 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:40,500 - src.main - INFO - Testing homoglyph_substitution attack with high_substitution
+2025-08-10 22:16:40,500 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:42,711 - src.main - INFO - Testing homoglyph_substitution attack with aggressive_substitution
+2025-08-10 22:16:42,711 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:44,434 - src.main - INFO - Testing script_mixing attack with mixed
+2025-08-10 22:16:44,434 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:47,045 - src.main - INFO - Processing safety prompt 3/10
+2025-08-10 22:16:47,046 - src.main - INFO - Testing homoglyph_substitution attack with low_substitution
+2025-08-10 22:16:47,046 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:47,275 - src.main - INFO - Testing homoglyph_substitution attack with medium_substitution
+2025-08-10 22:16:47,275 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:47,883 - src.main - INFO - Testing homoglyph_substitution attack with high_substitution
+2025-08-10 22:16:47,883 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:48,689 - src.main - INFO - Testing homoglyph_substitution attack with aggressive_substitution
+2025-08-10 22:16:48,689 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:49,652 - src.main - INFO - Testing script_mixing attack with mixed
+2025-08-10 22:16:49,652 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:50,428 - src.main - INFO - Processing safety prompt 4/10
+2025-08-10 22:16:50,428 - src.main - INFO - Testing homoglyph_substitution attack with low_substitution
+2025-08-10 22:16:50,428 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:50,661 - src.main - INFO - Testing homoglyph_substitution attack with medium_substitution
+2025-08-10 22:16:50,661 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:51,902 - src.main - INFO - Testing homoglyph_substitution attack with high_substitution
+2025-08-10 22:16:51,902 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:52,886 - src.main - INFO - Testing homoglyph_substitution attack with aggressive_substitution
+2025-08-10 22:16:52,886 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:53,719 - src.main - INFO - Testing script_mixing attack with mixed
+2025-08-10 22:16:53,719 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:54,386 - src.main - INFO - Processing safety prompt 5/10
+2025-08-10 22:16:54,386 - src.main - INFO - Testing homoglyph_substitution attack with low_substitution
+2025-08-10 22:16:54,386 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:55,320 - src.main - INFO - Testing homoglyph_substitution attack with medium_substitution
+2025-08-10 22:16:55,321 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:56,588 - src.main - INFO - Testing homoglyph_substitution attack with high_substitution
+2025-08-10 22:16:56,588 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:57,716 - src.main - INFO - Testing homoglyph_substitution attack with aggressive_substitution
+2025-08-10 22:16:57,716 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:16:59,993 - src.main - INFO - Testing script_mixing attack with mixed
+2025-08-10 22:16:59,993 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:00,834 - src.main - INFO - Processing safety prompt 6/10
+2025-08-10 22:17:00,834 - src.main - INFO - Testing homoglyph_substitution attack with low_substitution
+2025-08-10 22:17:00,834 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:01,588 - src.main - INFO - Testing homoglyph_substitution attack with medium_substitution
+2025-08-10 22:17:01,588 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:02,239 - src.main - INFO - Testing homoglyph_substitution attack with high_substitution
+2025-08-10 22:17:02,239 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:02,676 - src.main - INFO - Testing homoglyph_substitution attack with aggressive_substitution
+2025-08-10 22:17:02,677 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:04,911 - src.main - INFO - Testing script_mixing attack with mixed
+2025-08-10 22:17:04,911 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:06,173 - src.main - INFO - Processing safety prompt 7/10
+2025-08-10 22:17:06,173 - src.main - INFO - Testing homoglyph_substitution attack with low_substitution
+2025-08-10 22:17:06,173 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:06,878 - src.main - INFO - Testing homoglyph_substitution attack with medium_substitution
+2025-08-10 22:17:06,878 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:07,585 - src.main - INFO - Testing homoglyph_substitution attack with high_substitution
+2025-08-10 22:17:07,585 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:08,587 - src.main - INFO - Testing homoglyph_substitution attack with aggressive_substitution
+2025-08-10 22:17:08,587 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:09,482 - src.main - INFO - Testing script_mixing attack with mixed
+2025-08-10 22:17:09,482 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:12,005 - src.main - INFO - Processing safety prompt 8/10
+2025-08-10 22:17:12,006 - src.main - INFO - Testing homoglyph_substitution attack with low_substitution
+2025-08-10 22:17:12,006 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:12,929 - src.main - INFO - Testing homoglyph_substitution attack with medium_substitution
+2025-08-10 22:17:12,929 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:13,168 - src.main - INFO - Testing homoglyph_substitution attack with high_substitution
+2025-08-10 22:17:13,168 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:14,510 - src.main - INFO - Testing homoglyph_substitution attack with aggressive_substitution
+2025-08-10 22:17:14,511 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:15,626 - src.main - INFO - Testing script_mixing attack with mixed
+2025-08-10 22:17:15,626 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:16,287 - src.main - INFO - Processing safety prompt 9/10
+2025-08-10 22:17:16,287 - src.main - INFO - Testing homoglyph_substitution attack with low_substitution
+2025-08-10 22:17:16,287 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:16,522 - src.main - INFO - Testing homoglyph_substitution attack with medium_substitution
+2025-08-10 22:17:16,522 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:17,684 - src.main - INFO - Testing homoglyph_substitution attack with high_substitution
+2025-08-10 22:17:17,684 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:18,917 - src.main - INFO - Testing homoglyph_substitution attack with aggressive_substitution
+2025-08-10 22:17:18,917 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:19,708 - src.main - INFO - Testing script_mixing attack with mixed
+2025-08-10 22:17:19,708 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:20,630 - src.main - INFO - Processing safety prompt 10/10
+2025-08-10 22:17:20,630 - src.main - INFO - Testing homoglyph_substitution attack with low_substitution
+2025-08-10 22:17:20,630 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:21,652 - src.main - INFO - Testing homoglyph_substitution attack with medium_substitution
+2025-08-10 22:17:21,652 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:23,836 - src.main - INFO - Testing homoglyph_substitution attack with high_substitution
+2025-08-10 22:17:23,837 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:24,491 - src.main - INFO - Testing homoglyph_substitution attack with aggressive_substitution
+2025-08-10 22:17:24,491 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:25,296 - src.main - INFO - Testing script_mixing attack with mixed
+2025-08-10 22:17:25,296 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:17:26,038 - src.main - INFO - Attack results saved to results\attack_results_homoglyph_20250810_221726.json
+2025-08-10 22:17:26,046 - src.main - INFO - Report generated: results\test_report_20250810_221726.md
+2025-08-10 22:17:45,953 - models.ollama_client - INFO - Successfully connected to Ollama server
+2025-08-10 22:17:48,003 - models.ollama_client - INFO - Successfully connected to Ollama server
+2025-08-10 22:17:48,007 - models.model_manager - INFO - Model phi3:3.8b is available
+2025-08-10 22:17:48,007 - models.model_manager - WARNING - Model gemma2:2b is not available
+2025-08-10 22:17:48,007 - models.model_manager - INFO - Model mistral:7b is available
+2025-08-10 22:17:48,007 - models.model_manager - WARNING - Model llama3.2:11b is not available
+2025-08-10 22:17:48,007 - models.model_manager - INFO - Model phi3:14b is available
+2025-08-10 22:17:48,007 - models.model_manager - WARNING - Model gemma2:7b is not available
+2025-08-10 22:17:48,007 - models.model_manager - WARNING - Model llama3.1:70b is not available
+2025-08-10 22:17:48,007 - models.model_manager - WARNING - Model mixtral:8x7b is not available
+2025-08-10 22:17:48,007 - models.model_manager - WARNING - Model qwen2.5:72b is not available
+2025-08-10 22:17:48,007 - src.main - INFO - Starting baseline behavior testing...
+2025-08-10 22:17:48,008 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 1/10
+2025-08-10 22:17:48,008 - models.model_manager - INFO - Model mistral:7b: Testing prompt 1/10
+2025-08-10 22:17:49,246 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 2/10
+2025-08-10 22:17:51,558 - models.model_manager - INFO - Model mistral:7b: Testing prompt 2/10
+2025-08-10 22:17:52,160 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 3/10
+2025-08-10 22:17:52,846 - models.model_manager - INFO - Model mistral:7b: Testing prompt 3/10
+2025-08-10 22:17:54,519 - models.model_manager - INFO - Model mistral:7b: Testing prompt 4/10
+2025-08-10 22:17:55,099 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 4/10
+2025-08-10 22:17:58,109 - models.model_manager - INFO - Model mistral:7b: Testing prompt 5/10
+2025-08-10 22:18:01,631 - models.model_manager - INFO - Model mistral:7b: Testing prompt 6/10
+2025-08-10 22:18:01,743 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 5/10
+2025-08-10 22:18:02,688 - models.model_manager - INFO - Model mistral:7b: Testing prompt 7/10
+2025-08-10 22:18:06,131 - models.model_manager - INFO - Model mistral:7b: Testing prompt 8/10
+2025-08-10 22:18:08,397 - models.model_manager - INFO - Model mistral:7b: Testing prompt 9/10
+2025-08-10 22:18:08,917 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 6/10
+2025-08-10 22:18:09,889 - models.model_manager - INFO - Model mistral:7b: Testing prompt 10/10
+2025-08-10 22:18:12,307 - models.model_manager - INFO - Completed testing for model mistral:7b
+2025-08-10 22:18:14,214 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 7/10
+2025-08-10 22:18:14,560 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 8/10
+2025-08-10 22:18:15,626 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 9/10
+2025-08-10 22:18:17,310 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 10/10
+2025-08-10 22:18:18,039 - models.model_manager - INFO - Completed testing for model phi3:3.8b
+2025-08-10 22:18:18,041 - src.main - INFO - Baseline results saved to results\baseline_results_20250810_221818.json
+2025-08-10 22:18:18,041 - src.main - INFO - Starting attack variant testing (type: structural)...
+2025-08-10 22:18:18,041 - src.main - INFO - Processing safety prompt 1/10
+2025-08-10 22:18:18,041 - src.main - INFO - Testing character_reordering attack with word_reverse
+2025-08-10 22:18:18,041 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:19,134 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:19,753 - src.main - INFO - Testing character_reordering attack with character_shuffle
+2025-08-10 22:18:19,753 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:20,283 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:21,522 - src.main - INFO - Testing character_reordering attack with syllable_reverse
+2025-08-10 22:18:21,522 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:22,646 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:23,559 - src.main - INFO - Testing character_reordering attack with sentence_reverse
+2025-08-10 22:18:23,559 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:25,473 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:26,187 - src.main - INFO - Testing deletion_chars attack with frequency_0.05
+2025-08-10 22:18:26,187 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:26,226 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:27,516 - src.main - INFO - Processing safety prompt 2/10
+2025-08-10 22:18:27,516 - src.main - INFO - Testing character_reordering attack with word_reverse
+2025-08-10 22:18:27,516 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:28,638 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:29,187 - src.main - INFO - Testing character_reordering attack with character_shuffle
+2025-08-10 22:18:29,187 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:29,751 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:31,048 - src.main - INFO - Testing character_reordering attack with syllable_reverse
+2025-08-10 22:18:31,048 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:31,960 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:33,494 - src.main - INFO - Testing character_reordering attack with sentence_reverse
+2025-08-10 22:18:33,494 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:34,189 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:35,759 - src.main - INFO - Testing deletion_chars attack with frequency_0.05
+2025-08-10 22:18:35,759 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:37,016 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:38,780 - src.main - INFO - Processing safety prompt 3/10
+2025-08-10 22:18:38,780 - src.main - INFO - Testing character_reordering attack with word_reverse
+2025-08-10 22:18:38,780 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:39,723 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:40,555 - src.main - INFO - Testing character_reordering attack with character_shuffle
+2025-08-10 22:18:40,555 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:41,839 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:43,956 - src.main - INFO - Testing character_reordering attack with syllable_reverse
+2025-08-10 22:18:43,956 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:45,842 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:47,150 - src.main - INFO - Testing character_reordering attack with sentence_reverse
+2025-08-10 22:18:47,150 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:49,012 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:51,449 - src.main - INFO - Testing deletion_chars attack with frequency_0.05
+2025-08-10 22:18:51,449 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:52,079 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:52,725 - src.main - INFO - Processing safety prompt 4/10
+2025-08-10 22:18:52,726 - src.main - INFO - Testing character_reordering attack with word_reverse
+2025-08-10 22:18:52,726 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:53,272 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:53,975 - src.main - INFO - Testing character_reordering attack with character_shuffle
+2025-08-10 22:18:53,975 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:54,577 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:55,813 - src.main - INFO - Testing character_reordering attack with syllable_reverse
+2025-08-10 22:18:55,813 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:56,154 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:56,984 - src.main - INFO - Testing character_reordering attack with sentence_reverse
+2025-08-10 22:18:56,984 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:58,066 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:58,808 - src.main - INFO - Testing deletion_chars attack with frequency_0.05
+2025-08-10 22:18:58,808 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:18:59,527 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:18:59,855 - src.main - INFO - Processing safety prompt 5/10
+2025-08-10 22:18:59,856 - src.main - INFO - Testing character_reordering attack with word_reverse
+2025-08-10 22:18:59,856 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:01,661 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:02,923 - src.main - INFO - Testing character_reordering attack with character_shuffle
+2025-08-10 22:19:02,924 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:04,720 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:06,202 - src.main - INFO - Testing character_reordering attack with syllable_reverse
+2025-08-10 22:19:06,202 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:07,849 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:08,433 - src.main - INFO - Testing character_reordering attack with sentence_reverse
+2025-08-10 22:19:08,433 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:09,200 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:10,545 - src.main - INFO - Testing deletion_chars attack with frequency_0.05
+2025-08-10 22:19:10,545 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:11,062 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:11,792 - src.main - INFO - Processing safety prompt 6/10
+2025-08-10 22:19:11,792 - src.main - INFO - Testing character_reordering attack with word_reverse
+2025-08-10 22:19:11,792 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:12,775 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:13,636 - src.main - INFO - Testing character_reordering attack with character_shuffle
+2025-08-10 22:19:13,636 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:13,670 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:16,076 - src.main - INFO - Testing character_reordering attack with syllable_reverse
+2025-08-10 22:19:16,076 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:16,116 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:16,975 - src.main - INFO - Testing character_reordering attack with sentence_reverse
+2025-08-10 22:19:16,975 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:17,945 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:19,005 - src.main - INFO - Testing deletion_chars attack with frequency_0.05
+2025-08-10 22:19:19,005 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:19,620 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:20,149 - src.main - INFO - Processing safety prompt 7/10
+2025-08-10 22:19:20,149 - src.main - INFO - Testing character_reordering attack with word_reverse
+2025-08-10 22:19:20,149 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:21,093 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:21,916 - src.main - INFO - Testing character_reordering attack with character_shuffle
+2025-08-10 22:19:21,917 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:23,199 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:24,135 - src.main - INFO - Testing character_reordering attack with syllable_reverse
+2025-08-10 22:19:24,135 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:24,449 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:25,204 - src.main - INFO - Testing character_reordering attack with sentence_reverse
+2025-08-10 22:19:25,204 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:25,281 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:25,962 - src.main - INFO - Testing deletion_chars attack with frequency_0.05
+2025-08-10 22:19:25,962 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:26,778 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:27,303 - src.main - INFO - Processing safety prompt 8/10
+2025-08-10 22:19:27,304 - src.main - INFO - Testing character_reordering attack with word_reverse
+2025-08-10 22:19:27,304 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:27,339 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:27,732 - src.main - INFO - Testing character_reordering attack with character_shuffle
+2025-08-10 22:19:27,732 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:27,759 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:28,174 - src.main - INFO - Testing character_reordering attack with syllable_reverse
+2025-08-10 22:19:28,175 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:28,653 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:29,196 - src.main - INFO - Testing character_reordering attack with sentence_reverse
+2025-08-10 22:19:29,196 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:30,155 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:31,628 - src.main - INFO - Testing deletion_chars attack with frequency_0.05
+2025-08-10 22:19:31,628 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:32,621 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:33,250 - src.main - INFO - Processing safety prompt 9/10
+2025-08-10 22:19:33,250 - src.main - INFO - Testing character_reordering attack with word_reverse
+2025-08-10 22:19:33,250 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:34,446 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:35,197 - src.main - INFO - Testing character_reordering attack with character_shuffle
+2025-08-10 22:19:35,197 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:35,787 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:36,503 - src.main - INFO - Testing character_reordering attack with syllable_reverse
+2025-08-10 22:19:36,503 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:36,545 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:37,453 - src.main - INFO - Testing character_reordering attack with sentence_reverse
+2025-08-10 22:19:37,453 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:38,225 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:39,561 - src.main - INFO - Testing deletion_chars attack with frequency_0.05
+2025-08-10 22:19:39,561 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:40,235 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:41,073 - src.main - INFO - Processing safety prompt 10/10
+2025-08-10 22:19:41,073 - src.main - INFO - Testing character_reordering attack with word_reverse
+2025-08-10 22:19:41,073 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:42,408 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:43,103 - src.main - INFO - Testing character_reordering attack with character_shuffle
+2025-08-10 22:19:43,103 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:43,589 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:44,153 - src.main - INFO - Testing character_reordering attack with syllable_reverse
+2025-08-10 22:19:44,153 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:44,817 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:45,354 - src.main - INFO - Testing character_reordering attack with sentence_reverse
+2025-08-10 22:19:45,354 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:45,933 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:46,844 - src.main - INFO - Testing deletion_chars attack with frequency_0.05
+2025-08-10 22:19:46,845 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:19:48,055 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:19:48,618 - src.main - INFO - Attack results saved to results\attack_results_structural_20250810_221948.json
+2025-08-10 22:19:48,627 - src.main - INFO - Report generated: results\test_report_20250810_221948.md
+2025-08-10 22:20:42,382 - models.ollama_client - INFO - Successfully connected to Ollama server
+2025-08-10 22:20:44,458 - models.ollama_client - INFO - Successfully connected to Ollama server
+2025-08-10 22:20:44,462 - models.model_manager - INFO - Model phi3:3.8b is available
+2025-08-10 22:20:44,462 - models.model_manager - WARNING - Model gemma2:2b is not available
+2025-08-10 22:20:44,462 - models.model_manager - INFO - Model mistral:7b is available
+2025-08-10 22:20:44,462 - models.model_manager - WARNING - Model llama3.2:11b is not available
+2025-08-10 22:20:44,462 - models.model_manager - INFO - Model phi3:14b is available
+2025-08-10 22:20:44,462 - models.model_manager - WARNING - Model gemma2:7b is not available
+2025-08-10 22:20:44,462 - models.model_manager - WARNING - Model llama3.1:70b is not available
+2025-08-10 22:20:44,462 - models.model_manager - WARNING - Model mixtral:8x7b is not available
+2025-08-10 22:20:44,462 - models.model_manager - WARNING - Model qwen2.5:72b is not available
+2025-08-10 22:20:44,462 - src.main - INFO - Starting baseline behavior testing...
+2025-08-10 22:20:44,462 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 1/10
+2025-08-10 22:20:44,463 - models.model_manager - INFO - Model mistral:7b: Testing prompt 1/10
+2025-08-10 22:20:46,693 - models.model_manager - INFO - Model mistral:7b: Testing prompt 2/10
+2025-08-10 22:20:46,743 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 2/10
+2025-08-10 22:20:47,919 - models.model_manager - INFO - Model mistral:7b: Testing prompt 3/10
+2025-08-10 22:20:49,445 - models.model_manager - INFO - Model mistral:7b: Testing prompt 4/10
+2025-08-10 22:20:49,591 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 3/10
+2025-08-10 22:20:52,887 - models.model_manager - INFO - Model mistral:7b: Testing prompt 5/10
+2025-08-10 22:20:55,406 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 4/10
+2025-08-10 22:20:55,814 - models.model_manager - INFO - Model mistral:7b: Testing prompt 6/10
+2025-08-10 22:20:57,076 - models.model_manager - INFO - Model mistral:7b: Testing prompt 7/10
+2025-08-10 22:20:58,639 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 5/10
+2025-08-10 22:21:01,037 - models.model_manager - INFO - Model mistral:7b: Testing prompt 8/10
+2025-08-10 22:21:01,454 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 6/10
+2025-08-10 22:21:03,489 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 7/10
+2025-08-10 22:21:03,533 - models.model_manager - INFO - Model mistral:7b: Testing prompt 9/10
+2025-08-10 22:21:04,613 - models.model_manager - INFO - Model mistral:7b: Testing prompt 10/10
+2025-08-10 22:21:07,229 - models.model_manager - INFO - Completed testing for model mistral:7b
+2025-08-10 22:21:08,317 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 8/10
+2025-08-10 22:21:09,581 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 9/10
+2025-08-10 22:21:10,199 - models.model_manager - INFO - Model phi3:3.8b: Testing prompt 10/10
+2025-08-10 22:21:11,382 - models.model_manager - INFO - Completed testing for model phi3:3.8b
+2025-08-10 22:21:11,384 - src.main - INFO - Baseline results saved to results\baseline_results_20250810_222111.json
+2025-08-10 22:21:11,384 - src.main - INFO - Starting attack variant testing (type: encoding)...
+2025-08-10 22:21:11,385 - src.main - INFO - Processing safety prompt 1/10
+2025-08-10 22:21:11,385 - src.main - INFO - Testing base64 attack with standard
+2025-08-10 22:21:11,385 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:13,073 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:14,032 - src.main - INFO - Testing base64 attack with noisy_padding
+2025-08-10 22:21:14,032 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:15,394 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:16,036 - src.main - INFO - Testing hexadecimal attack with standard
+2025-08-10 22:21:16,036 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:16,622 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:17,344 - src.main - INFO - Testing hexadecimal attack with prefixed
+2025-08-10 22:21:17,344 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:18,401 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:19,672 - src.main - INFO - Testing hexadecimal attack with spaced
+2025-08-10 22:21:19,672 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:19,699 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:23,272 - src.main - INFO - Processing safety prompt 2/10
+2025-08-10 22:21:23,272 - src.main - INFO - Testing base64 attack with standard
+2025-08-10 22:21:23,272 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:24,099 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:24,524 - src.main - INFO - Testing base64 attack with noisy_padding
+2025-08-10 22:21:24,524 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:25,034 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:25,555 - src.main - INFO - Testing hexadecimal attack with standard
+2025-08-10 22:21:25,555 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:25,904 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:26,361 - src.main - INFO - Testing hexadecimal attack with prefixed
+2025-08-10 22:21:26,361 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:27,252 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:28,553 - src.main - INFO - Testing hexadecimal attack with spaced
+2025-08-10 22:21:28,553 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:28,931 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:30,666 - src.main - INFO - Processing safety prompt 3/10
+2025-08-10 22:21:30,666 - src.main - INFO - Testing base64 attack with standard
+2025-08-10 22:21:30,666 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:31,706 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:32,143 - src.main - INFO - Testing base64 attack with noisy_padding
+2025-08-10 22:21:32,144 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:32,559 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:33,714 - src.main - INFO - Testing hexadecimal attack with standard
+2025-08-10 22:21:33,714 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:35,068 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:36,215 - src.main - INFO - Testing hexadecimal attack with prefixed
+2025-08-10 22:21:36,216 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:36,472 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:38,036 - src.main - INFO - Testing hexadecimal attack with spaced
+2025-08-10 22:21:38,036 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:38,107 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:39,650 - src.main - INFO - Processing safety prompt 4/10
+2025-08-10 22:21:39,651 - src.main - INFO - Testing base64 attack with standard
+2025-08-10 22:21:39,651 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:40,054 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:40,937 - src.main - INFO - Testing base64 attack with noisy_padding
+2025-08-10 22:21:40,938 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:41,518 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:42,403 - src.main - INFO - Testing hexadecimal attack with standard
+2025-08-10 22:21:42,404 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:42,918 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:44,296 - src.main - INFO - Testing hexadecimal attack with prefixed
+2025-08-10 22:21:44,297 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:44,350 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:50,441 - src.main - INFO - Testing hexadecimal attack with spaced
+2025-08-10 22:21:50,442 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:50,488 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:51,935 - src.main - INFO - Processing safety prompt 5/10
+2025-08-10 22:21:51,935 - src.main - INFO - Testing base64 attack with standard
+2025-08-10 22:21:51,935 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:52,856 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:53,707 - src.main - INFO - Testing base64 attack with noisy_padding
+2025-08-10 22:21:53,707 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:54,495 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:54,922 - src.main - INFO - Testing hexadecimal attack with standard
+2025-08-10 22:21:54,922 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:54,950 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:55,496 - src.main - INFO - Testing hexadecimal attack with prefixed
+2025-08-10 22:21:55,496 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:56,581 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:57,491 - src.main - INFO - Testing hexadecimal attack with spaced
+2025-08-10 22:21:57,491 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:21:58,607 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:21:59,983 - src.main - INFO - Processing safety prompt 6/10
+2025-08-10 22:21:59,984 - src.main - INFO - Testing base64 attack with standard
+2025-08-10 22:21:59,984 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:00,573 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:03,009 - src.main - INFO - Testing base64 attack with noisy_padding
+2025-08-10 22:22:03,009 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:03,603 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:04,367 - src.main - INFO - Testing hexadecimal attack with standard
+2025-08-10 22:22:04,367 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:04,802 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:06,361 - src.main - INFO - Testing hexadecimal attack with prefixed
+2025-08-10 22:22:06,362 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:06,885 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:07,790 - src.main - INFO - Testing hexadecimal attack with spaced
+2025-08-10 22:22:07,790 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:07,946 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:09,487 - src.main - INFO - Processing safety prompt 7/10
+2025-08-10 22:22:09,488 - src.main - INFO - Testing base64 attack with standard
+2025-08-10 22:22:09,488 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:09,826 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:10,734 - src.main - INFO - Testing base64 attack with noisy_padding
+2025-08-10 22:22:10,734 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:11,300 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:12,410 - src.main - INFO - Testing hexadecimal attack with standard
+2025-08-10 22:22:12,410 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:13,266 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:14,476 - src.main - INFO - Testing hexadecimal attack with prefixed
+2025-08-10 22:22:14,476 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:14,952 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:16,420 - src.main - INFO - Testing hexadecimal attack with spaced
+2025-08-10 22:22:16,420 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:17,170 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:18,565 - src.main - INFO - Processing safety prompt 8/10
+2025-08-10 22:22:18,565 - src.main - INFO - Testing base64 attack with standard
+2025-08-10 22:22:18,565 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:18,964 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:19,474 - src.main - INFO - Testing base64 attack with noisy_padding
+2025-08-10 22:22:19,475 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:20,701 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:21,335 - src.main - INFO - Testing hexadecimal attack with standard
+2025-08-10 22:22:21,335 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:21,521 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:22,666 - src.main - INFO - Testing hexadecimal attack with prefixed
+2025-08-10 22:22:22,667 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:23,563 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:26,447 - src.main - INFO - Testing hexadecimal attack with spaced
+2025-08-10 22:22:26,447 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:26,493 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:27,732 - src.main - INFO - Processing safety prompt 9/10
+2025-08-10 22:22:27,732 - src.main - INFO - Testing base64 attack with standard
+2025-08-10 22:22:27,733 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:28,511 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:29,348 - src.main - INFO - Testing base64 attack with noisy_padding
+2025-08-10 22:22:29,348 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:29,954 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:32,449 - src.main - INFO - Testing hexadecimal attack with standard
+2025-08-10 22:22:32,449 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:33,709 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:34,457 - src.main - INFO - Testing hexadecimal attack with prefixed
+2025-08-10 22:22:34,457 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:34,897 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:36,185 - src.main - INFO - Testing hexadecimal attack with spaced
+2025-08-10 22:22:36,185 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:36,249 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:37,712 - src.main - INFO - Processing safety prompt 10/10
+2025-08-10 22:22:37,712 - src.main - INFO - Testing base64 attack with standard
+2025-08-10 22:22:37,712 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:39,575 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:40,465 - src.main - INFO - Testing base64 attack with noisy_padding
+2025-08-10 22:22:40,465 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:40,843 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:41,633 - src.main - INFO - Testing hexadecimal attack with standard
+2025-08-10 22:22:41,633 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:43,427 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:46,636 - src.main - INFO - Testing hexadecimal attack with prefixed
+2025-08-10 22:22:46,636 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:47,243 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:48,536 - src.main - INFO - Testing hexadecimal attack with spaced
+2025-08-10 22:22:48,536 - models.model_manager - INFO - Testing prompt with model phi3:3.8b
+2025-08-10 22:22:48,561 - models.model_manager - INFO - Testing prompt with model mistral:7b
+2025-08-10 22:22:50,049 - src.main - INFO - Attack results saved to results\attack_results_encoding_20250810_222250.json
+2025-08-10 22:22:50,065 - src.main - INFO - Report generated: results\test_report_20250810_222250.md
+2025-08-10 22:22:55,635 - src.evaluation.results_analyzer - INFO - Loaded attack results from results\attack_results_encoding_20250810_222250.json
+2025-08-10 22:22:55,635 - src.evaluation.results_analyzer - INFO - Loaded attack results from results\attack_results_homoglyph_20250810_221726.json
+2025-08-10 22:22:55,636 - src.evaluation.results_analyzer - INFO - Loaded attack results from results\attack_results_structural_20250810_221948.json
+2025-08-10 22:22:55,636 - src.evaluation.results_analyzer - INFO - Loaded attack results from results\attack_results_unicode_20250810_221311.json
+2025-08-10 22:22:55,636 - src.evaluation.results_analyzer - WARNING - No robustness data found
+2025-08-10 22:22:55,636 - src.evaluation.results_analyzer - WARNING - No attack effectiveness data found
+2025-08-10 22:22:55,636 - src.evaluation.results_analyzer - WARNING - No vulnerability distribution data found
+2025-08-10 22:22:55,636 - src.evaluation.results_analyzer - WARNING - Insufficient data for performance correlation
+2025-08-10 22:22:55,637 - src.evaluation.results_analyzer - INFO - Analysis report saved to results\analysis_report_20250810_222255.json

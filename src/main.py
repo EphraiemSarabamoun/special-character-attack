@@ -8,11 +8,11 @@ from pathlib import Path
 from typing import Dict, List, Any, Optional
 from datetime import datetime
 
-from .models.model_manager import ModelManager
-from .attacks.unicode_attacks import UnicodeAttacks
-from .attacks.homoglyph_attacks import HomoglyphAttacks
-from .attacks.structural_attacks import StructuralAttacks
-from .attacks.encoding_attacks import EncodingAttacks
+from models.model_manager import ModelManager
+from attacks.unicode_attacks import UnicodeAttacks
+from attacks.homoglyph_attacks import HomoglyphAttacks
+from attacks.structural_attacks import StructuralAttacks
+from attacks.encoding_attacks import EncodingAttacks
 
 
 class AttackTestFramework:

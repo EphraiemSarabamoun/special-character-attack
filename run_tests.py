@@ -12,9 +12,9 @@ from pathlib import Path
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
-from main import AttackTestFramework
-from test_suite import TestSuiteGenerator, get_test_prompts
-from evaluation.results_analyzer import ResultsAnalyzer
+from src.main import AttackTestFramework
+from src.test_suite import TestSuiteGenerator, get_test_prompts
+from src.evaluation.results_analyzer import ResultsAnalyzer
 
 
 def setup_logging(verbose: bool = False):

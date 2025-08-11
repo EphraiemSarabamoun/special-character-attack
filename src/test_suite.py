@@ -6,6 +6,7 @@ from typing import Dict, List, Any, Tuple
 from pathlib import Path
 from dataclasses import dataclass, asdict
 import yaml
+import numpy as np
 
 
 @dataclass
