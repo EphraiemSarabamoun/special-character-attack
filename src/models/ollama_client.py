@@ -152,8 +152,14 @@ class OllamaClient:
         
         try:
             data = response.json()
+            raw_response = data.get("response", "")
+            
+            # Handle thinking models (extract final output after thinking)
+            final_output = self._extract_final_output(raw_response, data.get("model", ""))
+            
             return {
-                "response": data.get("response", ""),
+                "response": raw_response,  # Keep full response for analysis
+                "final_output": final_output,  # Extracted final output for jailbreak detection
                 "model": data.get("model", ""),
                 "prompt": data.get("prompt", ""),
                 "response_time": response_time,
@@ -200,8 +206,12 @@ class OllamaClient:
         end_time = time.time()
         response_time = end_time - start_time
         
+        # Handle thinking models for streaming response
+        final_output = self._extract_final_output(full_response, last_data.get("model", ""))
+        
         return {
-            "response": full_response,
+            "response": full_response,  # Keep full response for analysis
+            "final_output": final_output,  # Extracted final output for jailbreak detection
             "model": last_data.get("model", ""),
             "response_time": response_time,
             "total_duration": last_data.get("total_duration", 0),
@@ -213,6 +223,49 @@ class OllamaClient:
             "success": True,
             "error": None
         }
+    
+    def _extract_final_output(self, response: str, model_name: str) -> str:
+        """Extract final output from thinking models, preserving full response for non-thinking models"""
+        
+        # Check if this is a thinking model (DeepSeek-R1 series)
+        is_thinking_model = "deepseek-r1" in model_name.lower()
+        
+        if not is_thinking_model:
+            # For non-thinking models, return the full response
+            return response
+        
+        # For thinking models, extract content after thinking tags
+        # DeepSeek-R1 uses <think> and </think> tags for internal reasoning
+        
+        import re
+        
+        # Try to find content after </think> closing tag
+        think_pattern = r'</think>\s*(.*?)$'
+        match = re.search(think_pattern, response, re.DOTALL)
+        if match:
+            final_content = match.group(1).strip()
+            if final_content:
+                return final_content
+        
+        # Fallback: try to find content after thinking patterns
+        # Look for common thinking indicators and extract what comes after
+        thinking_indicators = [
+            r'<think>.*?</think>\s*(.*?)$',
+            r'Let me think.*?\n\n(.*?)$',
+            r'I need to.*?\n\n(.*?)$',
+            r'Thinking.*?\n\n(.*?)$'
+        ]
+        
+        for pattern in thinking_indicators:
+            match = re.search(pattern, response, re.DOTALL | re.IGNORECASE)
+            if match:
+                final_content = match.group(1).strip()
+                if final_content:
+                    return final_content
+        
+        # If no thinking patterns found, return the full response
+        # (might be a malformed response from thinking model)
+        return response
     
     def chat_completion(
         self,

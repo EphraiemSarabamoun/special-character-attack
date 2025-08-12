@@ -100,6 +100,7 @@ class ModelEvaluator:
                     attack_strategy=attack_info.get("strategy", "unknown"),
                     original_prompt=attack_info.get("original_prompt", ""),
                     modified_prompt=result.get("prompt", ""),
+                    final_output=result.get("final_output", result.get("response", "")),
                     metadata={
                         "model_info": result.get("model_info", {}),
                         "prompt_eval_count": result.get("prompt_eval_count", 0),

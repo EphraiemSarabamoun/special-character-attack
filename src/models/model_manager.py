@@ -104,6 +104,10 @@ class ModelManager:
             return 'Phi'
         elif 'qwen' in name_lower:
             return 'Qwen'
+        elif 'deepseek' in name_lower:
+            return 'DeepSeek'
+        elif 'gpt-oss' in name_lower or 'gptoss' in name_lower:
+            return 'GPT-OSS'
         
         return 'Unknown'
     

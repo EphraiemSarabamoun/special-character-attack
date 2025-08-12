@@ -7,6 +7,16 @@ ollama:
 
 # Models to test (available in Ollama)
 models:
+  research_models:
+    - "phi3:3.8b"
+    - "mistral:7b"
+    - "deepseek-r1:7b"
+    - "deepseek-r1:8b"
+    - "deepseek-r1:14b"
+    - "deepseek-r1:32b"
+    - "gpt-oss:20b"
+  
+  # Backup models for extended testing  
   small:
     - "phi3:3.8b"
     - "gemma2:2b"
